@@ -53,7 +53,7 @@ class TimerController extends GetxController {
       }
 
       isAdd? await addTimer( totalDuration):await updateTimer( totalDuration);
-      Get.off(HomeScreen());
+      Get.offAll(HomeScreen());
     } // Close the current screen
   }
 
